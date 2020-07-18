@@ -1,0 +1,46 @@
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px -3px #ccc;
+  max-width: 1200px;
+  margin: auto;
+  @media (min-width: 1000px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 50px;
+  }
+
+  &__wrapper{
+    width: 100%;
+  }
+
+  &__name{
+    margin: 15px 0 5px;
+    width: 100%;
+  }
+
+  &__item{
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    width: 100%;
+    
+    &ReadOnly{
+      background: #eee;
+      cursor: default;
+    }
+  }
+
+  .buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @media (min-width:1000px) {
+      justify-content: left;
+    }
+  }
+}

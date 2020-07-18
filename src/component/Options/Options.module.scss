@@ -1,0 +1,36 @@
+.options{
+    width: 170px;
+    position: fixed;
+    top: 67px;
+    right: 0;
+    transition: transform 0.3s;
+    opacity: 0;
+    display: none;
+    transform: translateY(-15%);
+
+    &__item{
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 7px;
+        background: white;
+        border: none;
+        position: relative;
+        border-radius: 30px;
+        margin-bottom: 3px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+}
+
+.optionsActive {
+    @extend .options;
+    transform: translateY(0%);
+    opacity: 1 ;
+    transition: transform 0.3s;
+    display: block;
+}
+
+
+
+
+

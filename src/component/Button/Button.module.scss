@@ -1,0 +1,25 @@
+.button{
+  padding: 10px;
+  font-size: 1rem;
+  background-color:#1cc88a ;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 0 5px;
+  color: white;
+  font-weight:700 ;
+  @media (min-width:1000px) {
+    margin-right: 50px;
+  }
+}
+
+.button:hover{
+  background-color:#0bb76a  ;
+}
+
+.buttonRed{
+  background-color:#e74a3b ;
+}
+
+.buttonRed:hover{
+  background-color:#d73a2b ;
+}

@@ -1,0 +1,51 @@
+.wrapper{
+  overflow-x: scroll;
+  max-height: 600px;
+  @media (min-width:1000px) {
+    overflow: auto;
+  }
+}
+
+.table{
+  padding: 20px;
+  border-spacing: 0;
+  width: 100%;
+
+  
+  &__column{
+    padding: 15px 10px;
+    border-top: 1px solid #eee;
+  }
+
+  &__header{
+    background-color: #eaecf4;
+    height: 50px;
+  }
+
+  &__rowRed{
+    background-color: red;
+  }
+
+  &__deleteButon{
+    padding: 6px 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #DD5C5C;
+    border: none;
+    border-radius: 4px;
+  }
+
+  &__deleteButon:hover{
+    background-color: #C75747;
+  }
+
+  &__deleteButtonGreen{
+    background-color: #1cc88a;
+  }
+  &__deleteButtonGreen:hover{
+    background-color: #169b6b;
+  }
+  
+}
+

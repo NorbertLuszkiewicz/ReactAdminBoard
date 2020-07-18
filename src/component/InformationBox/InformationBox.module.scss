@@ -1,0 +1,34 @@
+.information{
+    padding: 30px;
+    background: white;
+    margin:  30px auto;
+    border-left: 4px solid blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px -5px #ccc;
+    width: 100%;
+    max-width: 700px;
+
+
+    &__name{
+        color:#5f9ea0 ;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    &__value{
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+
+    &__icon{
+        color: #ccc;
+        font-size: 2.3rem;
+    }
+}
+
+.red{
+    border-left: 4px solid red;
+}
