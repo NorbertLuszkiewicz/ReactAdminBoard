@@ -1,6 +1,6 @@
 # React Admin Board
 
-[Link to site](https://5f12cf4b09fd44130ce2166a--fervent-wright-bd4551.netlify.app/Orders)
+[Link to site](https://adminboard.netlify.app/)
 
 ## Available Scripts
 
